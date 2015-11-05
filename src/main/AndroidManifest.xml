@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ui"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:maxSdkVersion="22"
+        android:minSdkVersion="15"
+        android:targetSdkVersion="17" />
+
+    <android:uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.kkushal.alpha.SplashScreen.Splash"
+            android:label="@string/title_activity_splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.MONKEY" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.kkushal.alpha.Cart.FlowActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.kkushal.alpha.Electrical.ElectricalActivity"
+            android:label="@string/title_section2" >
+        </activity>
+        <activity
+            android:name="com.example.kkushal.alpha.Handtool.HandtoolsActivity"
+            android:label="@string/title_section3" >
+        </activity>
+        <activity
+            android:name="com.example.kkushal.alpha.Hardwear.HardwearActivity"
+            android:label="@string/title_section4" >
+        </activity>
+        <activity
+            android:name="com.example.kkushal.alpha.Powertool.PowertoolActivity"
+            android:label="@string/title_section5" >
+        </activity>
+        <activity
+            android:name="com.example.kkushal.alpha.Cart.CartActivity"
+            android:label="@string/title_section8" >
+        </activity>
+        <activity
+            android:name="com.example.kkushal.alpha.Cart.ProductDetailsActivity"
+            android:label="@string/title_section8" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyCl1yGPZ3mpxxxxxxxAz2R-t7zcWVzrHUL9k" />
+
+        <activity
+            android:name="com.example.kkushal.alpha.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.kkushal.alpha.Cart.AddDeliveryAddress"
+            android:label="@string/title_activity_add_delivery_address" >
+        </activity>
+        <activity
+            android:name="com.example.kkushal.alpha.Cart.MasterActivity2"
+            android:label="@string/title_activity_shopping_cart_activity1" >
+        </activity>
+        <activity
+            android:name="com.example.kkushal.alpha.Cart.ShoppingCartActivity1"
+            android:label="@string/title_activity_shopping_cart_activity1" >
+        </activity>
+        <activity
+            android:name="com.example.kkushal.alpha.Cart.Delivery"
+            android:label="@string/title_activity_delivery" >
+        </activity>
+        <activity
+            android:name="com.example.kkushal.alpha.Cart.MasterActivity"
+            android:label="@string/title_activity_master" >
+        </activity>
+    </application>
+
+</manifest>

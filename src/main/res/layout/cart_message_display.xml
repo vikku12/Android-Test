@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="55dp"
+    android:id="@+id/toastView"
+    android:background="#90676767"
+    android:nestedScrollingEnabled="true">
+
+    <TextView
+    android:layout_width="169dp"
+    android:layout_height="40dp"
+    android:text="Added To Cart"
+    android:textColor="#fff6ffff"
+
+    android:textSize="20dp"
+        android:layout_marginLeft="80dp"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp" />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="right"
+        android:src="@drawable/arrow_logic"
+        android:paddingRight="20dp" />
+
+</LinearLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scrollView"
+    android:layout_gravity="right"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:layout_width="247dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/first_imgView"
+            android:src="@drawable/bh1"
+            android:maxHeight="100dp"
+            android:maxWidth="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp" />
+
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Category "
+        android:id="@+id/first_categroy"
+        android:layout_weight="0.06"
+        android:layout_gravity="center_horizontal"
+        android:phoneNumber="true"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Information"
+        android:id="@+id/first_infoView"
+        android:layout_weight="0.05"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="price"
+        android:id="@+id/first_priceView"
+        android:layout_weight="0.06"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="1 in stock"
+        android:id="@+id/textView"
+        android:layout_weight="0.08"
+        android:singleLine="false"
+        android:layout_marginLeft="25dp" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar" />
+
+
+    </LinearLayout>
+</ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+
+        android:layout_alignParentBottom="true"
+        android:id="@+id/buy_layout"
+        android:onClick="showDialog">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="BUY NOW"
+            android:id="@+id/button"
+            android:textColor="#fff6ffff"
+            android:background="#ffff3308"
+            android:onClick="showDialog"
+            android:textStyle="bold"
+            android:textSize="18dp" />
+    </LinearLayout>
+    </RelativeLayout>

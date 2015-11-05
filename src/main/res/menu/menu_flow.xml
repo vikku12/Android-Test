@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.kkushal.alpha.Cart.FlowActivity">
+
+    <item
+        android:id="@+id/action_cart"
+        android:title="@string/action_menucart"
+        android:icon="@drawable/empty_shopping_cart"
+        app:showAsAction="withText|ifRoom"/>
+</menu>
